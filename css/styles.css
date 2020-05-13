@@ -50,11 +50,13 @@ hr {
 }
 
 .skill-icons {
+  width: 128px;
   float: left;
   margin-right: 30px;
 }
 
 .skill-icon {
+  width: 128px;
   float: right;
   margin-left: 30px;
 }
