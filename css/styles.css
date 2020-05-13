@@ -9,15 +9,24 @@ body {
 h1 {
   margin: 0;
   font-family: 'Sacramento', cursive;
-  font-size: 60px;
+  font-size: 5.625em;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 2;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: none;
+  border-top: 3px dashed;
+  border-color: #900c3f;
+  width: 3%;
 }
 
 .top-container {
@@ -28,6 +37,28 @@ h3 {
 .middle-container {
   padding: 80px;
 }
+
+.profile {
+  margin: 50px auto;
+}
+
+.skill-row {
+  text-align: left;
+  display: inline-block;
+  width: 50%;
+  margin: 50px auto;
+}
+
+.skill-icons {
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-icon {
+  float: right;
+  margin-left: 30px;
+}
+
 #bottom-cloud {
   display: block;
   margin: 20px auto;
@@ -41,4 +72,27 @@ h3 {
   margin: 20px auto;
   position: relative;
   left: 230px;
+}
+
+.above-btn {
+  padding-bottom: 20px;
+}
+
+.btn {
+  color: #ff5733;
+  padding: 16px;
+  text-shadow: 0 -1px 0 #c70039;
+  -webkit-border-radius: 42.972972972972975px;
+  -moz-border-radius: 42.972972972972975px;
+  border-radius: 42.972972972972975px;
+  background: #900c3f;
+  background: -moz-linear-gradient(90deg, #900c3f 30%, #511845 70%);
+  background: -webkit-linear-gradient(90deg, #900c3f 30%, #511845 70%);
+  background: -o-linear-gradient(90deg, #900c3f 30%, #511845 70%);
+  background: -ms-linear-gradient(90deg, #900c3f 30%, #511845 70%);
+  background: linear-gradient(0deg, #900c3f 30%, #511845 70%);
+  -webkit-box-shadow: 0 2px 1px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0 2px 1px rgba(50, 50, 50, 0.75);
+  box-shadow:         0 2px 1px rgba(50, 50, 50, 0.75);
+
 }
